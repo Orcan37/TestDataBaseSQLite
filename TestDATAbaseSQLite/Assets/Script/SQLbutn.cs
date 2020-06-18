@@ -17,7 +17,7 @@ public class SQLbutn : MonoBehaviour
     void Start()
     {
         MS.sqlButn = this;
-
+        MS.DB.CreatTable();
     }
 
 
